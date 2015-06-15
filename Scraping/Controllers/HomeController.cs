@@ -26,5 +26,11 @@ namespace Scraping.Controllers
 
             return View();
         }
+
+        public ActionResult Services()
+        {
+            ViewBag.FullName = "René Huanco Choque";
+            return View();
+        }
     }
 }
